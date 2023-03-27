@@ -18,12 +18,14 @@
         This is the main content of your app or website. You can add text,
         images, links, or any other type of content here.
       </p>
-      <!-- This will display the chatbot widget on your app or website -->
+      <!-- Add a container for the chatbot widget -->
+      <div id="chatbot-container"></div>
     </main>
 
     <footer>
       <p>Created by Your Name</p>
     </footer>
-    <!-- Add the chatbot integration code before the closing </body> tag -->
-    <script id="chatbotkit-widget" src="https://static.chatbotkit.com/integrations/widget/v1.js" data-widget="clfoga8l0000aib0gnl2y1nhh" data-theme="light"></script>
+    <!-- Modify the chatbot integration code -->
+    <script async id="chatbotkit-widget" src="https://static.chatbotkit.com/integrations/widget/v1.js" data-widget="clfoga8l0000aib0gnl2y1nhh" data-theme="light" data-container="#chatbot-container"></script>
   </body>
+</html>
